@@ -1,5 +1,3 @@
-console.log(basicLightbox);
-
 import { galleryItems } from './gallery-items.js';
 
 const gallery = document.querySelector('.gallery');
@@ -41,15 +39,5 @@ gallery.onclick = (event) => {
       instance.close();
     }
   }
-};
-
-    // window.addEventListener("keydown", (event) => {
-    //     if (event.code === "Escape") {
-    //         instance.close();
-    //     }
-    // })
-
-
-// gallery.addEventListener('click', handler)
-// ..........................
+}
     
